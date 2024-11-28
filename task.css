@@ -67,6 +67,8 @@ header .cart a {
 
 /* Products Section */
 .products {
+    margin-left: 5%;
+    width: 90%;
     padding: 32px 16px;
     text-align: center;
 }
@@ -77,6 +79,7 @@ header .cart a {
 
 .product-grid {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
 }
@@ -84,31 +87,71 @@ header .cart a {
 .product {
     border: 1px solid #ddd;
     padding: 16px;
-    width: 200px;
+    width: 25%;
+    height:500px ;
     text-align: center;
     border-radius: 5px;
 }
-
-.product img {
-    width: 100%;
-    height: auto;
+#wael{
+    border: 1px solid #ddd;
+    padding: 16px;
+    width: 50%;
+    height:auto ;
+    text-align: center;
+    border-radius: 5px;
+}
+#wael img {
+  height:80% ;
+  width: auto;
+    margin-bottom: 30px;
 }
 
-.product h3 {
+#wael h3 {
+    font-size: 16px;
     margin: 8px 0px;
 }
 
-.product button {
-    background-color: #007bff;
+#wael button {
+    
+    background-color: #000;
     color: #fff;
+    width: 40%;
+    height: 10%;
     border: none;
     padding: 8px;
     border-radius: 5px;
     cursor: pointer;
 }
+.product img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 30px;
+}
 
+.product h3 {
+    font-size: 16px;
+    margin: 8px 0px;
+}
+
+.product button {
+    margin-top: 50px;
+    background-color: #000;
+    color: #fff;
+    width: 40%;
+    height: 10%;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.niggers{
+margin-left:32% ;
+}
 
 footer {
+    width: 100%;
+    bottom: 0;
+    position:relative;
     text-align: center;
     padding: 16px;;
     background-color: #333;
